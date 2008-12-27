@@ -1,4 +1,4 @@
-module Fixedfields
+module FixedFields
   
   def self.included(base)
     base.extend FieldMethods
