@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{fixed_fields}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Dan Munk"]
@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = %q{Helps map fields from fixed length record to an active record instance}
   s.email = %q{danmunk@gmail.com}
   s.extra_rdoc_files = ["lib/fixed_fields.rb", "README.rdoc"]
-  s.files = ["init.rb", "lib/fixed_fields.rb", "Manifest", "Rakefile", "README.rdoc", "fixed_fields.gemspec"]
+  s.files = ["fixed_fields.gemspec", "github_test.rb", "init.rb", "lib/fixed_fields.rb", "Rakefile", "README.rdoc", "Manifest"]
   s.has_rdoc = true
   s.homepage = %q{http://www.github.com/danmunk/fixed_fields}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Fixed_fields", "--main", "README.rdoc"]
